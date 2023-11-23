@@ -22,7 +22,11 @@
         <img alt="English" src="https://img.shields.io/badge/%E8%8B%B1%E8%AF%AD-English-blue">
     </a>
 </p>
-
+<p align="center">
+    <a title="MuseScore 3.6.2" target="_blank" href="https://www.musescore.org">
+        <img alt="MuseScore 3.6.2" src="https://img.shields.io/badge/MuseScore-3.6.2-blue">
+    </a>
+</p>
 
 <p align="center">CMG 的意思是 CMG Musescore Guide</p>
 
@@ -31,6 +35,8 @@
 ## 介绍
 
 **本指南仍在不断更新和修订，请确保你正在读的版本是最新版本。**
+
+**本指南基于 MuseScore 3.6.2 编写**
 
 本指南以使用 MuseScore 打谱的常见问题为核心，包含详细的图文教程，以及一些进阶技巧，同时还会介绍一些打谱必备的乐理知识。
 
