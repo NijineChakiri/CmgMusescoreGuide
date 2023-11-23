@@ -1,6 +1,7 @@
 ---
 title: MuseScore常见问题指南
 date: 2023-11-23 12:30:27
+excerpt: 一本真正能解决实际问题的 MuseScore 打谱指南
 tags:
 categories:
 ---
