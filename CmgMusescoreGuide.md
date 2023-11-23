@@ -1,14 +1,15 @@
 ---
-title: MuseScore常见问题指南
+title: CmgMusescoreGuide
 date: 2023-11-23 12:30:27
 excerpt: 一本真正能解决实际问题的 MuseScore 打谱指南
 tags:
 categories:
 ---
 
-<center><h2>
-    MuseScore常见问题指南
-    </h2></center>
+<center><h1>
+    Cmg Musescore Guide
+    </h1></center>
+
 
 ### 问题目录
 
