@@ -1,8 +1,9 @@
 <p align="center">
-    <a title="icon" target="_blank" href="./MuseScore常见问题指南.md">
+    <a title="icon" target="_blank" href="./MuseScore常见问题指南.html">
         <img alt="icon" src="./img/musescore.png" style="border-radius: 50%; width: 180px; height: 180px; box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);">
     </a>
 </p>
+
 
 
 
@@ -41,4 +42,4 @@
 
 ## 如何使用
 
-可在右侧 release 中下载最新版本的 pdf 文件，或是在下方网址阅读。
+可在右侧 release 中下载最新版本的 pdf 文件，或是<a href="./MuseScore常见问题指南.html">点击此处</a>阅读。
