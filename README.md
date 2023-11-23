@@ -1,5 +1,5 @@
 <p align="center">
-    <a title="icon" target="_blank" href="./MuseScore常见问题指南.html">
+    <a title="icon" target="_blank" href="https://nijinechakiri.github.io/CmgMusescoreGuide/">
         <img alt="icon" src="./img/musescore.png" style="border-radius: 50%; width: 180px; height: 180px; box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);">
     </a>
 </p>
@@ -14,15 +14,15 @@
         <img alt="GitHub Stars" src="https://img.shields.io/github/stars/NijineChakiri/CmgMusescoreGuide?style=social&logo=github">
     </a> 
 </p>
-
 <p align="center">
-    <a title="Simplefied_Chinese" href="./README.md">
+    <a title="Simplefied_Chinese" target="_blank" href="https://nijinechakiri.github.io/CmgMusescoreGuide/CmgMusescoreGuide.html">
         <img alt="Simplefied_Chinese" src="https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-Simplified%20Chinese-blue">
     </a>
-    <a title="English" href="./README_EN.md">
+    <a title="English" href="">
         <img alt="English" src="https://img.shields.io/badge/%E8%8B%B1%E8%AF%AD-English-blue">
     </a>
 </p>
+
 
 <p align="center">CMG 的意思是 CMG Musescore Guide</p>
 
