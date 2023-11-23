@@ -95,6 +95,8 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
    EOP 简谱大师是一个老牌软件，多年以来一直保持更新，且宣称永久免费。EOP 简谱大师操作较为简单，上手容易，关于简谱的许多功能也非常完善，且还支持VSTi 音源和 midi，具体功能介绍可以点击上方链接进入官网查看。
 
+   **请注意，根据软件使用协议，使用EOP简谱大师制作的乐谱不能用于商业用途。**
+
 2. JP-Word：https://www.happyeo.com/intro_jpw.htm
 
    <img src="./img/00_03_02.png" alt="JP-Word" style="zoom: 25%;" />
@@ -107,9 +109,60 @@ MuseScore交流讨论群（QQ群）：983966541  （群内也有 Musescore 各�
 
    番茄简谱有网页版，无需安装，可以直接在网页端输入简谱。番茄简谱通过脚本输入简谱，具有一定的上手门槛，但熟练以后效率很高。缺点是功能并不完善。
 
+4. 谱谱风：http://mail.ppfeng.com/forum.php?mod=forumdisplay&fid=33
+
+   <img src="./img/00_03_04.png" alt="00_03_04" />
+
+   谱谱风，原名Quickmake，一款简谱制谱作曲软件。打谱速度快、排版简单、支持简线混排、可输出专业出版级乐谱。
+
+   可通过上方链接下载谱谱风网络版。此版本可免费使用，但是存在功能限制。
+
 ---
 
+#### MuseScore 支持的乐谱文件
 
+MuseScore 支持以下格式的乐谱文件：
+
+1. Musescore 文件 (`*.mscz`, `*.mscx`)
+
+   MSCZ 是标准的 MuseScore 文件格式，建议用于大多数用途。以这种格式保存的乐谱占用的磁盘空间很小，但能保留所有必要的信息。该格式是 .mscx 文件的 ZIP 压缩版本，包括乐谱可能包含的任何图像和缩略图。
+
+   MSCX 是 MuseScore 文件格式的未压缩版本。以这种格式保存的乐谱将保留除图像之外的所有信息。它可以使用文本编辑器打开，允许用户访问文件的源代码。
+
+2. MusicXML 文件 (`*.mxl`, `*.musicxml`, `*.xml`)
+
+   MusicXML 是一种通用的标准格式，用于在不同的打谱软件之间共享乐谱，包括 MuseScore、Sibelius、Finale 和其他 100 多种打谱软件。MuseScore支持该格式的导出和导入。
+
+   MXL文件是压缩后的 MusicXML 文件，体积通常比普通 MusicXML 文件更小。这是一种较新的标准，旧的打谱软件并不广泛支持，但 MuseScore 完全支持导入和导出。
+
+3. MIDI 文件 (`*.mid`, `*.midi`, `*.kar`)
+
+   MIDI（乐器数字接口）是音序器和打谱软件广泛支持的一种格式。
+
+   MIDI 文件对回放非常有用，但几乎不包含乐谱布局信息（格式、音高拼写、声部、装饰音、衔接、重复、调号等）。要在不同的打谱软件之间共享文件，建议使用 MusicXML。
+
+4. Guitar Pro 文件 [仅限导入]
+
+   MuseScore可以打开具有以下扩展名的Guitar Pro文件：`*.gtp`，`*.gp3`，`*.gp4`，`*.gp5`，`*.gpx`，以及从3.5版本引入的`*.gp`。
+
+5. Overture / Score Writer文件 (`*.ove`, `*.scw`) [仅限导入]
+
+   OVE 文件由作曲软件 Overture 4 或更早版本创建。这种格式主要在中文环境中流行，例如中国大陆、中国香港和中国台湾；SCW文件由Score Writer创建，它们与OVE文件相同，唯一的区别是文件扩展名不同。
+
+   请注意：MuseScore的支持目前是实验性的，似乎只支持 Overture / Score Writer 3 和 4。OVEX 文件由 Overture 的最新版本Overture 5 创建，目前 MuseScore 无法读取该格式。
+
+除此之外，Musescore还支持以下文件格式：
+
+- Bagpipe Music Writer (`*.bww`) 
+- BB (`*.mgu`, `*.sgu`)
+- Power Tab Editor (`*.ptb`)
+- Capella (`*.cap`, `*.capx`) 
+
+MuseScore并不能完美导入以第三方格式保存的乐谱。因此，建议您在制作乐谱时优先选择Musescore，并将乐谱保存为` .mscz `格式。
+
+如需了解更多关于文件格式的信息，请阅读Musescore官方帮助文档：https://musescore.org/en/handbook/3/file-formats#share-with-other-software（可能是英文网页）
+
+---
 
 ### <span id="多选">一、如何同时选中多个小节/音符/元素？</span>
 
@@ -1042,5 +1095,9 @@ $$
 一般来说，建议切换至高级工作区，这样方便输入更复杂的东西。
 
 ---
+
+
+
+感谢小黄鸡对 MuseScore 支持的乐谱文件及简谱一节做出的贡献！
 
 <p align="right" style="font-size:24px;" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">MuseScore 常见问题指南</span> by <span property="cc:attributionName">Chakiri</span> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
