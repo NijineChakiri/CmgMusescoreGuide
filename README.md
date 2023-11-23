@@ -49,3 +49,10 @@
 ## 如何使用
 
 可在右侧 <a href="https://github.com/NijineChakiri/CmgMusescoreGuide/releases">releases</a> 中下载最新版本的 pdf 文件，或是<a href="https://nijinechakiri.github.io/CmgMusescoreGuide/CmgMusescoreGuide.html">点击此处</a>阅读。
+
+
+
+## 致谢
+
+感谢群友小黄鸡撰写 **MuseScore 支持的乐谱文件**一节，以及对简谱一节做出的贡献！
+
