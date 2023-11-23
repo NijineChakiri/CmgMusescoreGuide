@@ -48,4 +48,4 @@
 
 ## 如何使用
 
-可在右侧 release 中下载最新版本的 pdf 文件，或是<a href="https://nijinechakiri.github.io/CmgMusescoreGuide/CmgMusescoreGuide.html">点击此处</a>阅读。
+可在右侧 <a href="https://github.com/NijineChakiri/CmgMusescoreGuide/releases">releases</a> 中下载最新版本的 pdf 文件，或是<a href="https://nijinechakiri.github.io/CmgMusescoreGuide/CmgMusescoreGuide.html">点击此处</a>阅读。
